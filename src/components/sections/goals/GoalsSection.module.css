@@ -1,0 +1,44 @@
+.section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  cursor: default;
+}
+
+.goals {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4rem;
+  box-shadow: inset 0px 0px 4rem -5px rgba(104, 104, 104, 0.5);
+}
+
+.goalsName {
+  color: rgb(85, 85, 85);
+  height: 5%;
+}
+
+.goalsList {
+  width: 100%;
+  height: 95%;
+  padding: 0.5rem;
+}
+
+/* SVG */
+.plusSvg {
+  width: 4rem;
+  height: 4rem;
+}
+.plusSvg path,
+.plusSvg polygon,
+.plusSvg rect {
+  fill: #4691f6;
+}
+.plusSvg circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}

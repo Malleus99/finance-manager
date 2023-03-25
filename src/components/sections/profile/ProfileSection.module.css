@@ -1,0 +1,140 @@
+.section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+/* Profile */
+.profile {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userName {
+  font-size: 2.2rem;
+  padding: 1rem;
+}
+.imgContainer {
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.balance {
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(35, 55, 238);
+  border-radius: 2rem;
+  color: white;
+}
+
+.attribute {
+  color: rgb(165, 164, 164);
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+}
+.amount {
+  font-size: 5rem;
+}
+
+.transactions {
+  width: 80%;
+  height: 14rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deposit,
+.withdrawal {
+  width: 48%;
+  height: 8rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movement {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 2.2rem;
+}
+
+.deposit {
+  color: green;
+  background-color: rgba(0, 255, 0, 0.1);
+}
+.withdrawal {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+.symbol {
+  font-size: 3rem;
+}
+
+.anotation {
+  margin-bottom: 0.5rem;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+/* Right-side */
+.info {
+  width: 50%;
+  height: 100%;
+  border-radius: 3rem;
+  padding: 2rem;
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+}
+.transactionsName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5%;
+  padding: 1rem 0;
+}
+
+.recent {
+  font-size: 2rem;
+}
+
+.plusSvg {
+  width: 4rem;
+  height: 4rem;
+}
+.plusSvg path,
+.plusSvg polygon,
+.plusSvg rect {
+  fill: #4691f6;
+}
+.plusSvg circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.transactionTypesContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
